@@ -7,6 +7,8 @@ library(ggplot2)
 
 To begin our analysis, it seemed logical to first gain a sense of which teams have recorded the most total chokes, as well as comebacks over the last 4 seasons. As a result, we used a Cleveland Dot plot to display a ranking of these teams.
 
+##Total Chokes and Comebacks
+
 ```{r}
 choke_list_frame <- read.csv(file="/Users/elijahflomen/Desktop/choke_list_full_R.csv")
 
@@ -39,6 +41,8 @@ total_comebacks_plot
 
 It is interesting to note here initially the top 5 choke teams as: Memphis, Minnesota, Miami, New Orleans, Charlotte and the top 5 comeback teams as Oklahoma City, Boston, Denver, Toronto and Los Angeles. We will use these teams in a moment to further explore the possible relationships between high choke / comeback teams and other variables.
 
+##Choke and Comeback Relationship
+
 Further, it should be noted that being a high-comeback team and being a high-choke team are not entirely mutually exclusive. This initial data visualization showed that it is possible that a team can very well lie in both categories. A team can be simply extremely volatile (or stable) once they have secured a 90% (or fallen to a 10%) win probability, however the direction of that volatility is not consistent. Although there is no overlap within the top 5 teams in each category, it would be useful to determine if certain teams are just extremely volatile in both direction, given a sizable lead or disadvantage. 
 
 ```{r}
@@ -51,7 +55,34 @@ choke_combeack_scatter
 
 Some interesting findings from this scatter plot is that there are indeed some teams with notable volatility (and stability) in their game play. For instance, Charlotte, a team we already identified to be within the top 5 choke teams also has a sizable number of comebacks. Further, Denver, a team that ranked in the top 5 comeback teams, was also within the top half of choke-prone teams. As a result, these two teams stand out in that for both of them, they stand out, relative to the rest of the league, in that their games often result in improbable endings, for better and for worse. Therefore, it would be of interest to investigate further aspects of these teams that cause them to stand out as improbable ending prone teams. Additionally, it was not surprising to notice that the number 1 team in both chokes and comebacks, MEM and OKC respectively, both ranked among the lowest in their respective opposite category. 
 
+## Chokes and Combeacks for Home v. Visitor
 
+Given these top teams in both choke and comeback categories, we wanted to investigate whether or not being the home vs. visitor team was a significant determinant of the outcome of the game. In the sports community, it is often known that home teams typically have a slight advantage, however, we wanted to investigate the nuances of this advantage at the choke/comeback level. For all teams across the league, we have produced mosaic plots to get a visual representation of this potential relationship. We split the league in half, by alphabetical order just to have the graph not be overly crowded and to view the relationship more clearly. 
+
+```{r}
+
+home_team_chokes$loc <- "home"
+home_team_chokes$result <- "choke"
+home_team_comebacks$loc <- "home"
+home_team_comebacks$result <- "comeback"
+home_team_chokes <- home_team_chokes %>% rename(team=home_team)
+home_team_comebacks <- home_team_comebacks %>% rename(team=home_team)
+
+
+away_team_chokes$loc <- "away"
+away_team_chokes$result <- "choke"
+away_team_comebacks$loc <- "away"
+away_team_comebacks$result <- "comeback"
+away_team_chokes <- away_team_chokes %>% rename(team=away_team)
+away_team_comebacks <- away_team_comebacks %>% rename(team=away_team)
+
+
+joined_team_data <- rbind(home_team_chokes, home_team_comebacks, away_team_chokes, away_team_comebacks)
+longer_joined_team_data <- joined_team_data %>% uncount(n)
+
+longer_joined_team_data_1 <- longer_joined_team_data %>% filter()
+
+```
 
 
 
