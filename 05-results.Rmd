@@ -149,11 +149,56 @@ As we can see here, the clear leading cause for both home and away chokes are tu
 
 Now that we have identified the teams with the highest chokes / comebacks, as well as the most frequent causes for these outcomes, it would be of interest to dive into some of the player-specific statistics. Given that fouls, misses, turnovers are all the cause of players’ specific actions, it would be of good use to visualize these, as well as other individual player-level statistics. This investigation would allow us to determine if, for high-choke teams, the main reasons for their unfortunate endings are the result of one specific player, or rather the team as a whole performing poorly in a specific category. The highest-choke team in our dataset was found to be The Memphis Grizzlies, therefore, it would be interesting to further explore their individual players’ statistics. Symmetrically, we also wanted to visualize the individual player-level statistics of the highest comeback team, the Oklahoma City Thunder.
 
-A natural way to express player-level data is in the form of a heatmap, showing the average ranking of that player in that statistic, over the course of their career. Given that players are often moved around teams, there is no perfect system to determine their statistics, filtered down to only the games when they played for a specific team, however, we simply decided to look at the individual player statistics who were most frequently on that team during their chokes/comebacks. This seemed like the most logical approach to solve the issue of inconsistent rosters, since we are looking at the playe
+A natural way to express player-level data is in the form of a heatmap, showing the average ranking of that player in that statistic, over the course of their career. Given that players are often moved around teams, there is no perfect system to determine their statistics, filtered down to only the games when they played for a specific team, however, we simply decided to look at the individual player statistics who were most frequently on that team during their chokes/comebacks. This seemed like the most logical approach to solve the issue of inconsistent rosters, since we are looking at the player career stats of individuals who played on frequently choke / comeback teams.
+
 
 ```{r}
 
-nbastatR::all_nba_teams()
+mem_starter_stats <- 
+  players_careers(players=c("Ja Morant", "Kyle Anderson", "Jaren Jackson Jr.", "Jonas Valanciunas", "Marc Gasol"),
+                  modes=c("Totals"), 
+                  assign_to_environment = FALSE,
+                  add_mode_names = FALSE, return_message = FALSE) %>% filter(nameTable=="SeasonRankingsRegularSeason")
+
+morant_stats <- mem_starter_stats %>% filter(namePlayer=="Ja Morant") %>% select(dataTable)
+morant_stats <- morant_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+morant_stats$player <- "Ja Morant"
+morant_longer <- morant_stats[complete.cases(morant_stats),] %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+morant_longer <- morant_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+morant_longer$player <- "Ja Morant"
+
+anderson_stats <- mem_starter_stats %>% filter(namePlayer=="Kyle Anderson") %>% select(dataTable)
+anderson_stats <- anderson_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+anderson_stats$player <- "Kyle Anderson"
+anderson_longer <- anderson_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value')
+anderson_longer <- anderson_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+anderson_longer$player <- "Kyle Anderson"
+
+jackson_stats <- mem_starter_stats %>% filter(namePlayer=="Jaren Jackson Jr.") %>% select(dataTable)
+jackson_stats <- jackson_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+jackson_stats$player <- "Jaren Jackson Jr."
+jackson_longer <- jackson_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value')
+jackson_longer <- jackson_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+jackson_longer$player <- "Jaren Jackson Jr."
+
+valanciunas_stats <- mem_starter_stats %>% filter(namePlayer=="Jonas Valanciunas") %>% select(dataTable)
+valanciunas_stats <- valanciunas_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+valanciunas_stats$player <- "Jonas Valanciunas"
+valanciunas_longer <- valanciunas_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value')
+valanciunas_longer <- valanciunas_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+valanciunas_longer$player <- "Jonas Valanciunas"
+
+gasol_stats <- mem_starter_stats %>% filter(namePlayer=="Marc Gasol") %>% select(dataTable)
+gasol_stats <- gasol_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+gasol_stats$player <- "Marc Gasol"
+gasol_longer <- gasol_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value')
+gasol_longer <- gasol_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+gasol_longer$player <- "Marc Gasol"
+
+mem_total_heat <- rbind(morant_longer, jackson_longer, anderson_longer, valanciunas_longer, gasol_longer) 
+colnames(mem_total_heat)[2] <- "rank"
+
+ggplot(data=mem_total_heat, aes(player, stat, fill=rank)) + geom_tile()
 
 ```
 
