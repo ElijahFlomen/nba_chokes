@@ -101,6 +101,13 @@
             <section class="normal" id="section-">
 <div id="data-sources" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Data sources</h1>
+<ol style="list-style-type: decimal">
+<li><p>Githhub: ‘swar/nba_api’
+Our central data source for this project came from a Python wrapper for the NBA’s public API. The link to this wrapper and its documentation can be found here. This API is written for Python and as a result a large portion of our data clearing and exporting came from Python scripts and notebooks (which will be discussed in more detail later). This API grants access to a wide variety of baseketball-focused data, however, our project decided to narrow in on a few of its queries. Most importantly, we pulled the play-by-play data which provides a plethora of data at the moment-by-moment level of NBA games. Each row in this dataset corresponds to an event in the game, which falls into 1 of 3 categories. An event can be neutral, such as the beginning and ending of a quarter, or events can favor either of the teams, such as a point scored, a foul committed, turnover etc. In addition to a string description of each event, each row in this dataset also contains each team’s win probability at that moment in time which is already calculated by the NBA. Although we do not have the exact formula for how this crucial statistic is calculated, it is intuitively some function of point differential and time remaining in the game. This statistic is obviously critical for our analysis, since we are specifically looking at the games where a team had &gt;90% win probability at some point in time and then lost the game. We used this data set to initially pull every single game from the last 4 NBA seasons and identify the games where a ‘choke’ occurred. We also used this dataset to pull specific player-related data, in particular, how their performance changed over the course of a game that was classified as a ‘choke’.</p></li>
+<li><p>R Package: nbastatR
+<a href="https://www.rdocumentation.org/packages/nbastatR/versions/0.1.10131" class="uri">https://www.rdocumentation.org/packages/nbastatR/versions/0.1.10131</a>
+In addition to the Python API to pull play-by-play and time-sensitive player data, we also leveraged the R package nbastatR. We used this dataset to get aggregate seasonal data for specific players. We decided to use this dataset since it allowed us to pull the data directly into R without needing external Python scripts.</p></li>
+</ol>
 
 </div>
             </section>
