@@ -80,7 +80,11 @@ away_team_comebacks <- away_team_comebacks %>% rename(team=away_team)
 joined_team_data <- rbind(home_team_chokes, home_team_comebacks, away_team_chokes, away_team_comebacks)
 longer_joined_team_data <- joined_team_data %>% uncount(n)
 
-longer_joined_team_data_1 <- longer_joined_team_data %>% filter()
+longer_joined_team_data_1 <- longer_joined_team_data %>%
+  filter(str_detect(team,'ATL|BKN|BOS|CHA|CHI|CLE|DAL|DEN|DET|GSW|HOU|IND|LAC|LAL|MEM'))
+
+longer_joined_team_data_2 <- longer_joined_team_data %>%
+  filter(str_detect(team,'MIA|MIL|MIN|NOP|NYK|OKC|ORL|PHI|PHX|POR|SAC|TOR|UTA|WAS|SAS'))
 
 ```
 
