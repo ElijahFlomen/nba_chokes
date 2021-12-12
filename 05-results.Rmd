@@ -91,6 +91,7 @@ longer_joined_team_data_2 <- longer_joined_team_data %>%
 
 mosaic(result~team+loc, direction=c('v', 'v', 'h'), 
        data=longer_joined_team_data_1)
+
 mosaic(result~team+loc, direction=c('v', 'v', 'h'), 
        data=longer_joined_team_data_2)
 ```
@@ -142,4 +143,18 @@ ggplot(home_choke_reason_max) + geom_bar(aes(home_mistake))
 ggplot(away_choke_reason_max) + geom_bar(aes(away_mistake))
 ```
 
-As we can see here, the clear leading cause for both home and away chokes are turnovers. However, for home chokes, misses are more frequent than fouls, but the opposite is true for away chokes. 
+As we can see here, the clear leading cause for both home and away chokes are turnovers. Given that turnovers are the clear leading causes for chokes over the last 4 seasons, it would be of interest to investigate the turnover rates of specific players in the NBA, which will follow in our analysis. An additional interesting finding is that, for home chokes, misses are more frequent than fouls, but the opposite is true for away chokes. Therefore, fouls had a larger presence than misses for team to choke, when they are playing as a visitor. 
+
+##Player Stat Heat Maps
+
+Now that we have identified the teams with the highest chokes / comebacks, as well as the most frequent causes for these outcomes, it would be of interest to dive into some of the player-specific statistics. Given that fouls, misses, turnovers are all the cause of players’ specific actions, it would be of good use to visualize these, as well as other individual player-level statistics. This investigation would allow us to determine if, for high-choke teams, the main reasons for their unfortunate endings are the result of one specific player, or rather the team as a whole performing poorly in a specific category. The highest-choke team in our dataset was found to be The Memphis Grizzlies, therefore, it would be interesting to further explore their individual players’ statistics. Symmetrically, we also wanted to visualize the individual player-level statistics of the highest comeback team, the Oklahoma City Thunder.
+
+A natural way to express player-level data is in the form of a heatmap, showing the average ranking of that player in that statistic, over the course of their career. Given that players are often moved around teams, there is no perfect system to determine their statistics, filtered down to only the games when they played for a specific team, however, we simply decided to look at the individual player statistics who were most frequently on that team during their chokes/comebacks. This seemed like the most logical approach to solve the issue of inconsistent rosters, since we are looking at the playe
+
+```{r}
+
+nbastatR::all_nba_teams()
+
+```
+
+
