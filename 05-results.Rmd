@@ -1,1 +1,61 @@
 # Results
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+To begin our analysis, it seemed logical to first gain a sense of which teams have recorded the most total chokes, as well as comebacks over the last 4 seasons. As a result, we used a Cleveland Dot plot to display a ranking of these teams.
+
+```{r}
+choke_list_frame <- read.csv(file="/Users/elijahflomen/Desktop/choke_list_full_R.csv")
+
+# Finds all instances where a home team choked
+home_team_chokes <- choke_list_frame %>% filter(home_choke == 1) %>% count(home_team)
+# Finds all instances where an away team choked
+away_team_chokes <- choke_list_frame %>% filter(home_choke == 0) %>% count(away_team)
+
+# Finds all instances of a home team comeback
+home_team_comebacks <- choke_list_frame %>% filter(home_choke == 0) %>% count(home_team)
+# Finds all instances of an away team comeback
+away_team_comebacks <- choke_list_frame %>% filter(home_choke == 1) %>% count(away_team)
+
+# Aggregates total overall chokes for a all teams
+team_total_chokes <- transmute(home_team_chokes, home_team, total_chokes=home_team_chokes$n + away_team_chokes$n)
+team_total_chokes <- team_total_chokes %>% rename(team=home_team) %>% arrange(team_total_chokes$total_chokes)
+
+# Aggregates total overall comebacks for all teams
+team_total_comebacks <- transmute(home_team_comebacks, home_team, total_comebacks=home_team_comebacks$n + away_team_comebacks$n)
+team_total_comebacks <- team_total_comebacks %>% rename(team=home_team) %>% arrange(team)
+
+# GRAPH: Cleveland dot plot for total chokes per team
+total_chokes_plot <- ggplot(team_total_chokes, aes(reorder(team, total_chokes), total_chokes)) + geom_point(stat='identity') + coord_flip()
+# GRAPH: Cleveland dot plot for total comebacks per team
+total_comebacks_plot <- ggplot(team_total_comebacks, aes(reorder(team, total_comebacks), total_comebacks)) + geom_point(stat='identity') + coord_flip()
+
+total_chokes_plot
+total_comebacks_plot
+
+```
+
+It is interesting to note here initially the top 5 choke teams as: Memphis, Minnesota, Miami, New Orleans, Charlotte and the top 5 comeback teams as Oklahoma City, Boston, Denver, Toronto and Los Angeles. We will use these teams in a moment to further explore the possible relationships between high choke / comeback teams and other variables.
+
+Further, it should be noted that being a high-comeback team and being a high-choke team are not entirely mutually exclusive. This initial data visualization showed that it is possible that a team can very well lie in both categories. A team can be simply extremely volatile (or stable) once they have secured a 90% (or fallen to a 10%) win probability, however the direction of that volatility is not consistent. Although there is no overlap within the top 5 teams in each category, it would be useful to determine if certain teams are just extremely volatile in both direction, given a sizable lead or disadvantage. 
+
+```{r}
+# team_totals <- team_total_chokes %>% left_join(team_total_comebacks, by='team')
+# ggplot(team_totals) + geom_point(aes(total_chokes, total_comebacks)) + 
+#   geom_text(aes(total_chokes, total_comebacks, label=team), hjust=0, vjust=0) +
+#   position_jitter()
+
+team_totals <- team_total_chokes %>% left_join(team_total_comebacks, by='team')
+choke_combeack_scatter <- ggplot(team_totals, aes(x=total_chokes, y=total_comebacks)) + 
+  geom_jitter(position = position_jitter(width=1, height=1, seed = 1)) + 
+  geom_text(position = position_jitter(width=1, height=1, seed = 1), aes(label=team), hjust=0, vjust=0, size=3)
+choke_combeack_scatter
+
+```
+
+
+
+
