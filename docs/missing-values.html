@@ -101,6 +101,11 @@
             <section class="normal" id="section-">
 <div id="missing-values" class="section level1" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Missing values</h1>
+<p>Play-by-play missing data plot:
+<img src="finalproj_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>There are no fully complete cases
+There are 3 types of descriptions (home description , away description, neutral description ). Intuitively, since we are looking at play for each row only 1 will appear in the dataset. After looking through the dataset, there are 2 specific cases in which there are both home and away descriptions: steal and turnover and shot attempt and blocked shot. As a result, we will end up merging these columns into a single “description” variable, which will simply describe the play and will not be organized by home/away/neutral. This merged column will not contain missing values.</p>
+<p>No win probabilities exist past the 5 minute mark in the 4th quarter. Due to this, we will not consider any win probabilities past this point in the game. However, given that our main research question is to classify the reasons for a game that ends in an upset, the 5 minute mark in the 4th quarter is a reasonable timeframe of the game to consider as a threshold.</p>
 
 </div>
             </section>
