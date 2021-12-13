@@ -1,0 +1,6964 @@
+{
+    "MIA vs PHI": [
+        {
+            "Player": "Johnson",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 20.0
+        },
+        {
+            "Player": "Richardson",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Ellington",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Wade",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Whiteside",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Winslow",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Saric",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Redick",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Johnson",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Ilyasova",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Belinelli",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "McConnell",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Johnson",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Richardson",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Ellington",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Wade",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Whiteside",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Winslow",
+            "Team": "MIA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Saric",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Redick",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Johnson",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Ilyasova",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Belinelli",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "McConnell",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "IND vs CLE": [
+        {
+            "Player": "Oladipo",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Stephenson",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Young",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Collison",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Joseph",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Sabonis",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "G.",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "James",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Smith",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Love",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Nance",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Green",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Clarkson",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Oladipo",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 19.0
+        },
+        {
+            "Player": "Stephenson",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Young",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Collison",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Joseph",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Sabonis",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "IND",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "G.",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "James",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Smith",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Love",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Nance",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Green",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Clarkson",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "OKC vs UTA": [
+        {
+            "Player": "George",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Anthony",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Adams",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Westbrook",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Huestis",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Brewer",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Felton",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Abrines",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Gobert",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Rubio",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Favors",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Mitchell",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "Ingles",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Udoh",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "George",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Anthony",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Adams",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Westbrook",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 33.0
+        },
+        {
+            "Player": "Huestis",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Brewer",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Felton",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Abrines",
+            "Team": "OKC",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Gobert",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Rubio",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Favors",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Mitchell",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Ingles",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Udoh",
+            "Team": "UTA",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "TOR vs CLE": [
+        {
+            "Player": "DeRozan",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Valanciunas",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Anunoby",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Poeltl",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Wright",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Miles",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "G.",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "James",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Korver",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Smith",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Green",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Clarkson",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Love",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "DeRozan",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Valanciunas",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Anunoby",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Poeltl",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Wright",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Miles",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "G.",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "James",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Korver",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Smith",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Green",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Clarkson",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Love",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "CLE",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "BOS vs PHI": [
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Rozier",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Horford",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Baynes",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Larkin",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Monroe",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Redick",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Belinelli",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Saric",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "McConnell",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Ilyasova",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Rozier",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Horford",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Baynes",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Larkin",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Monroe",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "BOS",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Redick",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Belinelli",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Saric",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "McConnell",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Ilyasova",
+            "Team": "PHI",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "GSW vs HOU": [
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Young",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 28.0
+        },
+        {
+            "Player": "Ariza",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Paul",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 19.0
+        },
+        {
+            "Player": "Tucker",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Green",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Young",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Ariza",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Paul",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Tucker",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Green",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "HOU vs GSW": [
+        {
+            "Player": "Harden",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Tucker",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Green",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Young",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Tucker",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Green",
+            "Team": "HOU",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 24.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Young",
+            "Team": "GSW",
+            "Season": "2017-18",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        }
+    ],
+    "BOS vs IND": [
+        {
+            "Player": "Baynes",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Irving",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 28.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Hayward",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Rozier",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Horford",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Young",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Collison",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "McDermott",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Evans",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Joseph",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Holiday",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Sabonis",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Matthews",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Baynes",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Irving",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Hayward",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Rozier",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Horford",
+            "Team": "BOS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Young",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Collison",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "McDermott",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Evans",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Joseph",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Holiday",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Sabonis",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Matthews",
+            "Team": "IND",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        }
+    ],
+    "GSW vs LAC": [
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "Cousins",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bogut",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Gilgeous-Alexander",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Temple",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Chandler",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Cousins",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Bogut",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Gilgeous-Alexander",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 26.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Temple",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Chandler",
+            "Team": "LAC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "DEN vs SAS": [
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Barton",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Plumlee",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Beasley",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Aldridge",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "DeRozan",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Forbes",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Belinelli",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "White",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Bertans",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Poeltl",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Gay",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Mills",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Motiejunas",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Barton",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "Plumlee",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Beasley",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Aldridge",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "DeRozan",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Forbes",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Belinelli",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "White",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Bertans",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Poeltl",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Gay",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Mills",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Motiejunas",
+            "Team": "SAS",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "POR vs OKC": [
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 42.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "George",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 31.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Adams",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Noel",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Westbrook",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 26.0
+        },
+        {
+            "Player": "Schroder",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Felton",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Ferguson",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "George",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Adams",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Noel",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Westbrook",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Schroder",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Felton",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Ferguson",
+            "Team": "OKC",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "DEN vs POR": [
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Craig",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Barton",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Plumlee",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Craig",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Barton",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Plumlee",
+            "Team": "DEN",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 26.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "MIL vs TOR": [
+        {
+            "Player": "Bledsoe",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Brogdon",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "G.",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Connaughton",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Gasol",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Bledsoe",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Brogdon",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "G.",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Connaughton",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 20.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Gasol",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        }
+    ],
+    "TOR vs MIL": [
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Gasol",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Brogdon",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "G.",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Ilyasova",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Bledsoe",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Gasol",
+            "Team": "TOR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Brogdon",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "G.",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Ilyasova",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bledsoe",
+            "Team": "MIL",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "GSW vs POR": [
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "McKinnie",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "McKinnie",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        }
+    ],
+    "POR vs GSW": [
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "McKinnie",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Jerebko",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Aminu",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 24.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "McKinnie",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Jerebko",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "POR vs GSW 2": [
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 24.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "McKinnie",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 27.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bogut",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Harkless",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Turner",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Hood",
+            "Team": "POR",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "McKinnie",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Thompson",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Bell",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Green",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Looney",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Livingston",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Cook",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bogut",
+            "Team": "GSW",
+            "Season": "2018-19",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "DAL vs LAC": [
+        {
+            "Player": "Burke",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Doncic",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Hardaway",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Kidd-Gilchrist",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Marjanovic",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Finney-Smith",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Barea",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Kleber",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Jackson",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Burke",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 20.0
+        },
+        {
+            "Player": "Doncic",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 38.0
+        },
+        {
+            "Player": "Hardaway",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 19.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Kidd-Gilchrist",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Marjanovic",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Finney-Smith",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Barea",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Kleber",
+            "Team": "DAL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Jackson",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        }
+    ],
+    "OKC vs HOU": [
+        {
+            "Player": "Gallinari",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Gilgeous-Alexander",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Dort",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Adams",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Paul",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Schroder",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Noel",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bazley",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "House",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "McLemore",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Green",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Tucker",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Gilgeous-Alexander",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Dort",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Adams",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Paul",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Schroder",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Noel",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Bazley",
+            "Team": "OKC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "House",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "McLemore",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Green",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Tucker",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "HOU",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        }
+    ],
+    "MIA vs MIL": [
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Butler",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Robinson",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Herro",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Jones",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Nunn",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Bledsoe",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "G.",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "DiVincenzo",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Matthews",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Butler",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Robinson",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Herro",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Jones",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Nunn",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Bledsoe",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "G.",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "DiVincenzo",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Matthews",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "MIL",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "TOR vs BOS": [
+        {
+            "Player": "Gasol",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Anunoby",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Walker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Gasol",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Siakam",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Lowry",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "VanVleet",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Anunoby",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Ibaka",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "TOR",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Walker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        }
+    ],
+    "LAC vs DEN": [
+        {
+            "Player": "Leonard",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Plumlee",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Craig",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Porter",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Plumlee",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Craig",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Porter",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        }
+    ],
+    "DEN vs LAC": [
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Porter",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Craig",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Murray",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 19.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Porter",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Grant",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Craig",
+            "Team": "DEN",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Leonard",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Green",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Harrell",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Zubac",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ],
+    "BOS vs MIA": [
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Walker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Wanamaker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Ojeleye",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Butler",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Nunn",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Olynyk",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Herro",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Robinson",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Walker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Wanamaker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Ojeleye",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Butler",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Nunn",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Olynyk",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Herro",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Iguodala",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Robinson",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        }
+    ],
+    "BOS vs MIA 2": [
+        {
+            "Player": "Walker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Wanamaker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Robinson",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Butler",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Olynyk",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Herro",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Walker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Theis",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Tatum",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Kanter",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Smart",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Wanamaker",
+            "Team": "BOS",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Robinson",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Crowder",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Butler",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Dragic",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Olynyk",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Herro",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Adebayo",
+            "Team": "MIA",
+            "Season": "2019-20",
+            "Time": "After Choke/Comeback",
+            "Points": 17.0
+        }
+    ],
+    "POR vs DEN": [
+        {
+            "Player": "Powell",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 19.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 19.0
+        },
+        {
+            "Player": "Nurkic",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Anthony",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Hollis-Jefferson",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Simons",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Porter",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 26.0
+        },
+        {
+            "Player": "Rivers",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Green",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Campazzo",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 20.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Powell",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "McCollum",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Lillard",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Nurkic",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Anthony",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Hollis-Jefferson",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Simons",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Covington",
+            "Team": "POR",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Porter",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Rivers",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Gordon",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Green",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Campazzo",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Jokic",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Millsap",
+            "Team": "DEN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "ATL vs PHI": [
+        {
+            "Player": "Capela",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Huerter",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Okongwu",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Young",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Korkmaz",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Thybulle",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "G.",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Howard",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Maxey",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Milton",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Huerter",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Okongwu",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 10.0
+        },
+        {
+            "Player": "Young",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Korkmaz",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Thybulle",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "G.",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Howard",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Maxey",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Milton",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        }
+    ],
+    "PHI vs ATL": [
+        {
+            "Player": "Korkmaz",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 29.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 23.0
+        },
+        {
+            "Player": "G.",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Thybulle",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Milton",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Young",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 16.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "S.",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Okongwu",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Korkmaz",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Embiid",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Curry",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "G.",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Thybulle",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Simmons",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Milton",
+            "Team": "PHI",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Young",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Collins",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Gallinari",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Capela",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Williams",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 13.0
+        },
+        {
+            "Player": "S.",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Okongwu",
+            "Team": "ATL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        }
+    ],
+    "BKN vs MIL": [
+        {
+            "Player": "Durant",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Green",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Griffin",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 18.0
+        },
+        {
+            "Player": "Holiday",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 15.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Forbes",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Connaughton",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 8.0
+        },
+        {
+            "Player": "Durant",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 31.0
+        },
+        {
+            "Player": "Green",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "Harris",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Griffin",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Harden",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Shamet",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Brown",
+            "Team": "BKN",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Middleton",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Holiday",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Antetokounmpo",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 17.0
+        },
+        {
+            "Player": "Forbes",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Lopez",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 4.0
+        },
+        {
+            "Player": "Connaughton",
+            "Team": "MIL",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 2.0
+        }
+    ],
+    "LAC vs UTA": [
+        {
+            "Player": "Mann",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Batum",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 7.0
+        },
+        {
+            "Player": "Rondo",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 1.0
+        },
+        {
+            "Player": "Jackson",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Mitchell",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "Gobert",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "O'Neale",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Conley",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Favors",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 2.0
+        },
+        {
+            "Player": "Ingles",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 5.0
+        },
+        {
+            "Player": "Clarkson",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "Before Choke/Comeback",
+            "Points": 21.0
+        },
+        {
+            "Player": "Mann",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 25.0
+        },
+        {
+            "Player": "George",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Morris",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Batum",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Rondo",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Beverley",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 11.0
+        },
+        {
+            "Player": "Jackson",
+            "Team": "LAC",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 22.0
+        },
+        {
+            "Player": "Mitchell",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 14.0
+        },
+        {
+            "Player": "Gobert",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 6.0
+        },
+        {
+            "Player": "O'Neale",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 12.0
+        },
+        {
+            "Player": "Conley",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 3.0
+        },
+        {
+            "Player": "Bogdanovic",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 9.0
+        },
+        {
+            "Player": "Favors",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Ingles",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        },
+        {
+            "Player": "Clarkson",
+            "Team": "UTA",
+            "Season": "2020-21",
+            "Time": "After Choke/Comeback",
+            "Points": 0.0
+        }
+    ]
+}
