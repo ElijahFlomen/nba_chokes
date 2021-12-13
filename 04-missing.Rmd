@@ -19,3 +19,26 @@ The only other notable pattern of missing data can be seen with the HOME_PCT and
 
 
 Other than these 2 important metrics, every other column is completely populated, since they contain data such as the time and points scored for each team, which can logically be reported at every instance of the game. 
+
+## Player Statistics Data Set (Steven Adams example)
+
+For the player-specific statistics, there contains some records of missing data. It is most likely that some of these statistics require minimum numbers of games played / shots attempted for them to be recorded. For example, if a player shoots a single 3 pointer in his career and it is successful, he should not hold the NBA all time record for highest 3 point percentage, at 100%. As a result, there are certain players whose statistics are missing for this reason of small sample size. Given that there is no clear pattern for these missing values, our solution was simply to ignore those values when getting player averages, since that is consistent with how the NBA would rank players. 
+
+We present here an example of a player profile, Steven Adams with some missing statistics.
+
+```{r}
+library(nbastatR)
+okc_player_stats <- 
+  players_careers(players=c("Russell Westbrook", "Steven Adams", "Dennis Schroder", "Paul George", "Shai Gilgeous-Alexander"),
+                  modes=c("Totals"), 
+                  assign_to_environment = FALSE,
+                  add_mode_names = FALSE, return_message = FALSE) %>% filter(nameTable=="SeasonRankingsRegularSeason")
+
+adams_stats <- okc_player_stats %>% filter(namePlayer=="Steven Adams") %>% select(dataTable)
+adams_stats <- adams_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+adams_missing_plot <- missing_vis(adams_stats, percent=FALSE)
+adams_missing_plot
+```
+
+As can be seen by Adams statistics throughout his seasons in the NBA, there are 5 rows where he is missing his pctFGRank, which is his field goal shooting %. This is the only pattern of missing data in his player set, as well as others. As mentioned earlier, for a player to have this stat missing is logical. Adams sustained several injuries over the last few years and it is likely that there were seasons where he did not take enough shot attempts to have a recorded pctFGRank. Every other statistic, however, is filled since those are all for actual counts and not a percentage. The same can be seen for most other players in our data set that we got from nbastatR.
+
