@@ -8,7 +8,7 @@ source("missing_viz.R")
 pbp_missing_plot <- missing_vis(pbp_game_data, percent=FALSE)
 ```
 
-## Play-by-play missing data:
+## Play-by-play missing data: 
 ```{r}
 pbp_missing_plot
 ```
