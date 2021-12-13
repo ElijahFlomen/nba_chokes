@@ -273,7 +273,7 @@ okc_total_heat <- rbind(westbrook_longer, adams_longer, schroder_longer, shai_lo
 colnames(okc_total_heat)[2] <- "rank"
 
 okc_starts_map<-ggplot(data=okc_total_heat, aes(player, stat, fill=rank)) + geom_tile() + 
-  labs(x="Player", y="Statistic", title="Player Stats for OKC")
+  labs(x="Player", y="Statistic", title="Player Stats for OKC") + scale_x_discrete(guide = guide_axis(n.dodge = 3))
 okc_starts_map
 ```
 
