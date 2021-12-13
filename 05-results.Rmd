@@ -201,6 +201,7 @@ valanciunas_longer$player <- "Jonas Valanciunas"
 
 gasol_stats <- mem_starter_stats %>% filter(namePlayer=="Marc Gasol") %>% select(dataTable)
 gasol_stats <- gasol_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+
 gasol_stats$player <- "Marc Gasol"
 gasol_longer <- gasol_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value')
 gasol_longer <- gasol_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
@@ -341,7 +342,7 @@ okc_players_split_plot <-
 okc_players_split_plot
 ```
 
-Interestingly enough, it can be seen here that there is no true distinction between across individuals players performances on OKC. During comebacks, players OKC, generally perform relatively consistently, before and after their games' turning point. With the exception of Adams, whose graph appears distorted due to a long strain of injuries he sustained, the players 2 points curves follow relatively similar trends. When compared with the players of MEM during their choke games, the OKC players during their comback games perform fairly consitently throughout the game. As a result, the true nature of a comeback team possibly comes as an entire team effort. 
+Interestingly enough, it can be seen here that there is no true distinction between across individuals players performances on OKC. During comebacks, players OKC, generally perform relatively consistently, before and after their games' turning point. With the exception of Adams, whose graph appears distorted due to a long strain of injuries he sustained, the players desntiy curves follow relatively similar trends before and after the game turning point. When compared with the players of MEM during their choke games, the OKC players during their comeback games perform fairly consistently throughout the game. As a result, the true nature of a comeback team possibly comes as an entire team effort. 
 
 
 
