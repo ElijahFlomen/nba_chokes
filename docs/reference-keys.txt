@@ -3,6 +3,11 @@ data-sources
 data-transformation
 missing-values
 results
+total-chokes-and-comebacks
+choke-and-comeback-relationship
+home-v.-visitor-impact-on-choke-v.-comeback
+reasons-for-choke
+player-stat-heat-maps
 league-wide-game-split-data
 interactive-component
 conclusion
