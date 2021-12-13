@@ -7,8 +7,6 @@ library(dplyr)
 library(vcd)
 library(nbastatR)
 library(rstudioapi)
-currentDir <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(currentDir)
 ```
 
 To begin our analysis, it seemed logical to first gain a sense of which teams have recorded the most total chokes, as well as comebacks over the last 4 seasons. As a result, we used a Cleveland Dot plot to display a ranking of these teams.
@@ -17,7 +15,7 @@ To begin our analysis, it seemed logical to first gain a sense of which teams ha
 
 ```{r}
 
-choke_list_frame <- read.csv(file="data/choke_list_full.csv")
+choke_list_frame <- read.csv(file="~/Desktop/edav_final/nba_chokes/data/choke_list_full.csv")
 
 # Finds all instances where a home team choked
 home_team_chokes <- choke_list_frame %>% filter(home_choke == 1) %>% count(home_team)
@@ -115,7 +113,7 @@ Now, given that there is some explanatory connection between being home vs. away
 
 
 ```{r}
-pbp_frame <- read.csv(file="data/pbp_data_full_R.csv")
+pbp_frame <- read.csv(file="~/Desktop/edav_final/nba_chokes/data/pbp_data_full.csv")
 home_choke_pbp <- pbp_frame %>% group_by(game_id) %>% filter(max(visitor_pts) > max(home_pts))
 home_choke_pbp <- home_choke_pbp %>% mutate(home_mistake = ifelse(grepl("Turnover", home_desc), 'turnover', 
                                                            ifelse(grepl("FOUL", home_desc), 'foul',
@@ -295,7 +293,7 @@ Given that we are able to identify the specific moment in a game when a team beg
 As a result, in our efforts to further investigate if we can identify choke-reasons at the player level, we managed to split our play-by-play data into before and after the choke turning point in a game. We define this turning point as the moment when the team who ended up choking had its highest overall win percentage. We wanted to initially look at the aggregate distributions of player scores before and after their team began to ‘choke.’ The overall distribution is as follows:
 
 ```{r}
-player_split_data <- read.csv("data/player_scoring_data.csv")
+player_split_data <- read.csv("~/Desktop/edav_final/nba_chokes/data/player_scoring_data.csv")
 colors <- c("Points Before" = "#0fa3ff", "Points After" = "#56545c")
 
 all_players_split <- 
@@ -348,6 +346,3 @@ okc_players_split_plot
 Interestingly enough, it can be seen here that there is no true distinction across individuals players performances on OKC. During comebacks, players OKC, generally perform relatively consistently, before and after their games' turning point. With the exception of Adams, whose graph appears distorted due to a long strain of injuries he sustained, the players density curves follow relatively similar trends before and after the game turning point. When compared with the players of MEM during their choke games, the OKC players during their comeback games perform fairly consistently throughout the game. As a result, the true nature of a comeback team possibly comes as an entire team effort. 
 
 Fun fact: While over the last 4 seasons, the Memphis Grizzlies have been the highest choke team and the Oklahoma City Thunder have been the highest comeback team, on December 2nd, 2021, Memphis beat Oklahoma city 152-79, breaking the all time NBA record for largest win margin of all time. Therefore, Memphis being a high choke team does not mean they are not capable of winning games (by massive margins), rather they simply are inconsistent at keeping the pace going on games where they start off strong. On the flip side, just because OKC has performed well as a comeback team, relative to the rest of the league, this does not mean that they are performing solidly throughout the season. Given that they often put themselves into situations where they face a mere 10% chance of winning, their team surely can use some improvements moving forward. 
-
-
-
