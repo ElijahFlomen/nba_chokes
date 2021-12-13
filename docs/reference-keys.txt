@@ -9,5 +9,6 @@ home-v.-visitor-impact-on-choke-v.-comeback
 reasons-for-choke
 player-stat-heat-maps
 league-wide-game-split-data
+mem-and-okc-game-split-player-data
 interactive-component
 conclusion

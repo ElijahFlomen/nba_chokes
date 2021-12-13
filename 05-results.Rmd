@@ -306,6 +306,8 @@ all_players_split
 
 Clearly, from a league wide perspective, we can see a very notable drop off in the points scored for a player, after their point of max win probability. From this visual, we can see there is a significant peak at the value 0, meaning that a majority of players are scoring 0 points after this turning point in their choke games. However, what is interesting about this visual is that there is a bi modal shape the the ‘after turning point’ density curve, with an initial peak of 0 and then another one at around the ~2 point mark. As a result of this shape of the density curve, it caused us to question whether there are individual players who may be still performing (relatively) well, while the rest of their team performs poorly. Given that there is still a significant portion of players with non-zero scores after the turning point, perhaps there are certain players who still perform well after the turning point, yet it is their teammates who are dragging them down for a loss. As a result, we wanted to provide a similar visual of points scored before and after the choke turning point, however, on a player-specific level. This visualization would enable us to conclude if it is truly teams as a whole who choke, or if there are specific players whose poor performance in the latter portion of the game drags the whole team down. 
 
+## MEM and OKC Game Split Player Data
+
 ```{r}
 
 mem_split_data <- merge(player_split_data, choke_list_frame, by="game_id") %>% filter(home_team == "MEM" & home_choke == 1 | away_team == "MEM" & home_choke == 0)
@@ -321,6 +323,10 @@ mem_players_split_plot <-
 mem_players_split_plot
 ```
 
+As we can clearly see from these faceted graphs, there are a few notable players who perform especially poorly following the game's turning point. Take Anderson for instance, who typically scores 5-10 points prior to his team's peak win probability, followed by a strong amount of 0-2 point performances. A similar trend can be seen for Jackson, as well as Valancuinas. However, it is interesting to note that Gasol and Morant, while they do perform poorly, do not perform as badly, relative to their teammates. Both of these players have significant peaks at non-zero values, hence indicating that they often continue to score, while at the slower pace than before, but still at a greater rate than their teamates. Therefore, Memphis' player-specific game-split data indiciates that the team's poor performance is potentially the product of a few sub-par players. This therefore sheds light on one of our initial discussions of whether or not a choke is a team or an individual effort, and through these graphs we can see that there is some significant argument that chokes may be the product of individual-level poor performances.  
+
+To conclude our analysis, we wanted to see if the flip side of the previous finding was true; are comebacks largely explained by the excellent performance of a subset of players on high-comeback teams? To find out, we produced the same visulation, however, this time for the players we analyzed on OKC, the team with the most comebacks in our dataset.
+
 ```{r}
 okc_split_data <- merge(player_split_data, choke_list_frame, by="game_id") %>% filter(home_team == "OKC" & home_choke == 0 | away_team == "OKC" & home_choke == 1)
 okc_split_data <- okc_split_data %>% filter(str_detect(player, 'Westbrook|Schroder|Gilgeous-Alexander|George|Adams')) 
@@ -334,5 +340,8 @@ okc_players_split_plot <-
   facet_wrap(~player)
 okc_players_split_plot
 ```
+
+Interesingly enough, it can be seen here that there is no true distinction between across individuals players performances on OKC. During comebacks, players OKC, generally perform relativelty consistently, before and after their games' turning point. With the exception of Adams, whose graph appears distorted due to a long strain of injuries he sustained, the players 2 points curves follow relatively similar trends. When compared with the players of MEM during their choke games, the OKC players during their comback games perform fairly consitently throughout the game. As a result, the true nature of a comeback team possibly comes as an entire team effort
+
 
 
