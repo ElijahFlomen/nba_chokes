@@ -3,7 +3,9 @@
 
 ```{r}
 library(readr)
-pbp_game_data <- read_csv("/Users/elijahflomen/Desktop/edav_final/nba_chokes/data/missing_pbp_data.csv")
+currentDir <- dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(currentDir)
+pbp_game_data <- read_csv("data/missing_pbp_data.csv")
 source("missing_viz.R")
 pbp_missing_plot <- missing_vis(pbp_game_data, percent=FALSE)
 ```
