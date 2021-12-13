@@ -34,9 +34,15 @@ team_total_comebacks <- transmute(home_team_comebacks, home_team, total_comeback
 team_total_comebacks <- team_total_comebacks %>% rename(team=home_team) %>% arrange(team)
 
 # GRAPH: Cleveland dot plot for total chokes per team
-total_chokes_plot <- ggplot(team_total_chokes, aes(reorder(team, total_chokes), total_chokes)) + geom_point(stat='identity') + coord_flip()
+total_chokes_plot <- ggplot(team_total_chokes, aes(reorder(team, total_chokes), total_chokes)) + 
+  geom_point(stat='identity') + 
+  coord_flip() + 
+  labs(x="Total Chokes", y="Team", title="2017-2021 Total Chokes")
 # GRAPH: Cleveland dot plot for total comebacks per team
-total_comebacks_plot <- ggplot(team_total_comebacks, aes(reorder(team, total_comebacks), total_comebacks)) + geom_point(stat='identity') + coord_flip()
+total_comebacks_plot <- ggplot(team_total_comebacks, aes(reorder(team, total_comebacks), total_comebacks)) + 
+  geom_point(stat='identity') + 
+  coord_flip() + 
+  labs(x="Total Comebacks", y="Team", title="2017-2021 Total Comebacks")
 
 total_chokes_plot
 total_comebacks_plot
@@ -46,17 +52,18 @@ It is interesting to note here initially the top 5 choke teams as: Memphis, Minn
 
 ##Choke and Comeback Relationship
 
-Further, it should be noted that being a high-comeback team and being a high-choke team are not entirely mutually exclusive. This initial data visualization showed that it is possible that a team can very well lie in both categories. A team can be simply extremely volatile (or stable) once they have secured a 90% (or fallen to a 10%) win probability, however the direction of that volatility is not consistent. Although there is no overlap within the top 5 teams in each category, it would be useful to determine if certain teams are just extremely volatile in both direction, given a sizable lead or disadvantage. 
+Further, it should be noted that while there is an apparent negative relationship between a team's number of chokes and comebacks, this relationship is not entirely mutually exclusive. The scatter plot below shows a pretty evident negative correlation between these two variables, which is to be expected.Nonetheless, this initial data visualization showed that it is possible that a team can lie in both categories. A team can be simply extremely volatile (or stable) once they have secured a 90% (or fallen to a 10%) win probability, however the direction of that volatility is not consistent. Although there is no overlap within the top 5 teams in each category, it would be useful to determine if certain teams are just extremely volatile in both direction, given a sizable lead or disadvantage. 
 
 ```{r}
 team_totals <- team_total_chokes %>% left_join(team_total_comebacks, by='team')
 choke_combeack_scatter <- ggplot(team_totals, aes(x=total_chokes, y=total_comebacks)) + 
   geom_jitter(position = position_jitter(width=1, height=1, seed = 1)) + 
-  geom_text(position = position_jitter(width=1, height=1, seed = 1), aes(label=team), hjust=0, vjust=0, size=3)
+  geom_text(position = position_jitter(width=1, height=1, seed = 1), aes(label=team), hjust=0, vjust=0, size=3) + 
+  labs(x="Total Chokes", y="Total Comebacks", title="2017-2021 Chokes and Comeback Relationship")
 choke_combeack_scatter
 ```
 
-Some interesting findings from this scatter plot is that there are indeed some teams with notable volatility (and stability) in their game play. For instance, Charlotte, a team we already identified to be within the top 5 choke teams also has a sizable number of comebacks. Further, Denver, a team that ranked in the top 5 comeback teams, was also within the top half of choke-prone teams. As a result, these two teams stand out in that for both of them, they stand out, relative to the rest of the league, in that their games often result in improbable endings, for better and for worse. Therefore, it would be of interest to investigate further aspects of these teams that cause them to stand out as improbable ending prone teams. Additionally, it was not surprising to notice that the number 1 team in both chokes and comebacks, MEM and OKC respectively, both ranked among the lowest in their respective opposite category. 
+Some interesting findings from this scatter plot is that there are indeed some teams with notable volatility (and stability) in their game play and this scatter plot has allowed us to identify some of these outliers.For instance, Charlotte, a team we already identified to be within the top 5 choke teams also has a sizable number of comebacks. Further, Denver, a team that ranked in the top 5 comeback teams, was also within the top half of choke-prone teams. As a result, these two teams stand out in that for both of them, they stand out, relative to the rest of the league, in that their games often result in improbable endings, for better and for worse. Atlanta also stands out in this plot in that they are a team with a very low level of chokes, relative to their number of comebacks. Therefore, it would be of interest to investigate further aspects of these teams that cause them to stand out as improbable ending prone teams. Additionally, it was not surprising to notice that the number 1 team in both chokes and comebacks, MEM and OKC respectively, both ranked among the lowest in their respective opposite category. 
 
 ##Home v. Visitor impact on Choke v. Comeback
 
@@ -90,7 +97,7 @@ longer_joined_team_data_2 <- longer_joined_team_data %>%
   filter(str_detect(team,'MIA|MIL|MIN|NOP|NYK|OKC|ORL|PHI|PHX|POR|SAC|TOR|UTA|WAS|SAS'))
 
 mosaic(result~team+loc, direction=c('v', 'v', 'h'), 
-       data=longer_joined_team_data_1)
+       data=longer_joined_team_data_1, main="Chokes vs. Comebacks By Home (h) vs. Visitor (v)")
 
 mosaic(result~team+loc, direction=c('v', 'v', 'h'), 
        data=longer_joined_team_data_2)
@@ -138,12 +145,12 @@ away_choke_reason_max <- away_choke_reasons_frac %>% group_by(game_id) %>% filte
 
 # GRAPH 3: Leading Causes for a home-team choke
 home_chokes_plot <- ggplot(home_choke_reason_max) + geom_bar(aes(home_mistake), color='#56545c', fill='#666a8e') + 
-  labs(x="Home Team Mistake", y="Count")
+  labs(x="Home Team Mistake", y="Count", title="Home Chokes")
 home_chokes_plot
 
 # GRAPH 4: Leading Causes for an away-team choke
 away_chokes_plot <- ggplot(away_choke_reason_max) + geom_bar(aes(away_mistake), color='#6084c6', fill="#0fa3ff") + 
-  labs(x="Away Team Mistake", y="Count")
+  labs(x="Away Team Mistake", y="Count", title="Away Chokes")
 away_chokes_plot
 ```
 
@@ -202,12 +209,87 @@ gasol_longer$player <- "Marc Gasol"
 mem_total_heat <- rbind(morant_longer, jackson_longer, anderson_longer, valanciunas_longer, gasol_longer) 
 colnames(mem_total_heat)[2] <- "rank"
 
-mem_starts_map<-ggplot(data=mem_total_heat, aes(player, stat, fill=rank)) + geom_tile() + labs(x="Player", y="Statistic")
+mem_starts_map<-ggplot(data=mem_total_heat, aes(player, stat, fill=rank)) + geom_tile() + 
+  labs(x="Player", y="Statistic", title="Player Stats for MEM")
 mem_starts_map
 
 
 
 ```
+
+
+Heat plots of both team’s average player rankings in the following categories are: 
+
+ptsRank = overal points Ranking
+fgmRank = field goals made Ranking
+pctFGRank = fileld goal % ranking
+fg3mRank = 3 pointers made ranking
+trebRank = total rebound ranking
+tovRank = turnover ranking (lower ranking means more turnovers)
+
+From the Memphis Grizzlies heatmap, we can clearly see that Ja Morant, their starting point guard ranks very high regarding total turnovers, which we found to be a leading cause in a team to choke. As a result, it is likely that his high turnover rate could be a contributor to the Grizzlies high choke rate. Morant ranks very high in turnovers according to his tovRank cell, and since turnovers are a negative stat, a higher rank indicates his costly mistakes. In addition to Morant's high turnover rate, this visual also clearly shows that Anderson as well as Jackson rank relatively low with respect to a range of their offensive statistics. However, interestingly enough, Memphis, while still being the leading team for chokes, has some players (including Morant) rank pretty well regarding their overall shooting scoring and rebounding statistics (with the exception of Valanciunas and Gasol’s fg3mRank). This conclusion, while seemingly contradictory is actually quite intuitive. In order for a team to choke, they must have at some point in the game, been leading by a considerable amount. Therefore, Memphis should have pretty solid player statistics if they are able to consistently gain a sizable lead in a game. As a result, it makes sense that high-choke tendency teams, such as Memphis, happen to have players that rank pretty well regarding their offensive statistics. In order to juxtapose the player statistics of a high choke team to a high comeback team, we wanted to examine the same type of visual, however for the 5 players who had a large presence on the Oklahoma City Thunder, the most frequent comeback team from 2017 - 2021.
+
+```{r}
+okc_player_stats <- 
+  players_careers(players=c("Russell Westbrook", "Steven Adams", "Dennis Schroder", "Luguentz Dort", "Al Horford"),
+                  modes=c("Totals"), 
+                  assign_to_environment = FALSE,
+                  add_mode_names = FALSE, return_message = FALSE) %>% filter(nameTable=="SeasonRankingsRegularSeason")
+
+westbrook_stats <- okc_player_stats %>% filter(namePlayer=="Russell Westbrook") %>% select(dataTable)
+westbrook_stats <- westbrook_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+westbrook_stats$player <- "Russell Westbrook"
+westbrook_longer <- westbrook_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+westbrook_longer <- westbrook_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+westbrook_longer$player <- "Russell Westbrook"
+
+adams_stats <- okc_player_stats %>% filter(namePlayer=="Steven Adams") %>% select(dataTable)
+adams_stats <- adams_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+adams_stats$player <- "Steven Adams"
+adams_longer <- adams_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+adams_longer <- adams_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+adams_longer$player <- "Steven Adams"
+
+schroder_stats <- okc_player_stats %>% filter(namePlayer=="Dennis Schroder") %>% select(dataTable)
+schroder_stats <- schroder_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+schroder_stats$player <- "Dennis Schroder"
+schroder_longer <- schroder_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+schroder_longer <- schroder_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+schroder_longer$player <- "Dennis Schroder"
+
+dort_stats <- okc_player_stats %>% filter(namePlayer=="Luguentz Dort") %>% select(dataTable)
+dort_stats <- dort_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+dort_stats$player <- "Luguentz Dort"
+dort_longer <- dort_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+dort_longer <- dort_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+dort_longer$player <- "Luguentz Dort"
+
+horford_stats <- okc_player_stats %>% filter(namePlayer=="Al Horford") %>% select(dataTable)
+horford_stats <- horford_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+horford_stats$player <- "Al Horford"
+horford_longer <- horford_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+horford_longer <- horford_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+horford_longer$player <- "Al Horford"
+
+okc_total_heat <- rbind(westbrook_longer, adams_longer, schroder_longer, dort_longer, horford_longer) 
+colnames(okc_total_heat)[2] <- "rank"
+
+okc_starts_map<-ggplot(data=okc_total_heat, aes(player, stat, fill=rank)) + geom_tile() + 
+  labs(x="Player", y="Statistic", title="Player Stats for OKC")
+okc_starts_map
+```
+
+
+From OKC's player statistics, we can see they have some extremely strong performers, relative to Memphis. This finding should be straightforward, since a high comeback team surely needs to have efficient offensive players on their roster. On this team, we can see very consistently strong offensive statistics (with the exception of Adams' fg3mRank). Oklahoma City's high level of comebacks can be interpreted very clearly here by their players demonstrating strong offensive performances.
+
+
+While the heat map was able to confirm our initial thoughts on the performance of players on high comeback teams, it left us unstatisfied with its representation of high comback teams, such as Memphis. As mentioned, this misrelading representation stems from the fact that in order for a team to choke, they were capabable of initially gaining some sort of lead.  Therefore, perhaps aggregate season-level data can begin to paint the picture of a choke-prone team, it is perhaps not most optimal method to identify if specific players are acting as significant contributors to a team’s choke or comeback.
+
+## League-Wide Game Split Data
+
+Given that we are able to identify the specific moment in a game when a team begins to lose their lead and begin their choke, it would be valuable to visualize players points before and after the point of max win probability in the game. 
+As a result, in our efforts to further investigate if we can identify choke-reasons at the player level, we managed to split our play-by-play data into before and after the choke turning point in a game. We define this turning point as the moment when the team who ended up choking had its highest overall win percentage. We wanted to initially look at the aggregate distributions of player scores before and after their team began to ‘choke.’ The overall distribution is as follows:
+
 
 
 ```{r}
@@ -218,10 +300,11 @@ all_players_split <-
   ggplot(player_split_data) + 
   geom_density(aes(points_bf, color='Points Before')) + 
   geom_density(aes(points_af, color='Points After')) + 
-  labs(x="Points Scored", y="Density", color="Legend") + 
+  labs(x="Points Scored", y="Density", color="Legend", title="Player Scores Before v. After Turning Point") + 
   scale_color_manual(values = colors)
 all_players_split
 
 ```
 
+Clearly, from a league wide perspective, we can see a very notable drop off in the points scored for a player, after their point of max win probability. From this visual, we can see there is a significant peak at the value 0, meaning that a majority of players are scoring 0 points after this turning point in their choke games. However, what is interesting about this visual is that there is a bimodal shape the the ‘after turning point’ density curve, with an initial peak of 0 and then another one at around the ~2 point mark. As a result of this shape of the density curve, it caused us to question whether there are individual players who may be still performing well, while the rest of their team performs poorly. Givern that there is still a significant portion of players with non-zero scores after the turning point, perhaps there are certain players who still perform well after the turning point, yet it is their teammates who are dragging them down for a loss. As a result, we wanted to provide a similar visual of points scored before and after the choke turning point, however, on a player-specific level. 
 
