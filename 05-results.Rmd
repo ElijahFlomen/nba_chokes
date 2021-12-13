@@ -137,10 +137,14 @@ home_choke_reason_max <- home_choke_reasons_frac %>% group_by(game_id) %>% filte
 away_choke_reason_max <- away_choke_reasons_frac %>% group_by(game_id) %>% filter(frac==max(frac))
 
 # GRAPH 3: Leading Causes for a home-team choke
-ggplot(home_choke_reason_max) + geom_bar(aes(home_mistake))
+home_chokes_plot <- ggplot(home_choke_reason_max) + geom_bar(aes(home_mistake), color='#56545c', fill='#666a8e') + 
+  labs(x="Home Team Mistake", y="Count")
+home_chokes_plot
 
 # GRAPH 4: Leading Causes for an away-team choke
-ggplot(away_choke_reason_max) + geom_bar(aes(away_mistake))
+away_chokes_plot <- ggplot(away_choke_reason_max) + geom_bar(aes(away_mistake), color='#6084c6', fill="#0fa3ff") + 
+  labs(x="Away Team Mistake", y="Count")
+away_chokes_plot
 ```
 
 As we can see here, the clear leading cause for both home and away chokes are turnovers. Given that turnovers are the clear leading causes for chokes over the last 4 seasons, it would be of interest to investigate the turnover rates of specific players in the NBA, which will follow in our analysis. An additional interesting finding is that, for home chokes, misses are more frequent than fouls, but the opposite is true for away chokes. Therefore, fouls had a larger presence than misses for team to choke, when they are playing as a visitor. 
@@ -198,11 +202,26 @@ gasol_longer$player <- "Marc Gasol"
 mem_total_heat <- rbind(morant_longer, jackson_longer, anderson_longer, valanciunas_longer, gasol_longer) 
 colnames(mem_total_heat)[2] <- "rank"
 
-ggplot(data=mem_total_heat, aes(player, stat, fill=rank)) + geom_tile()
+mem_starts_map<-ggplot(data=mem_total_heat, aes(player, stat, fill=rank)) + geom_tile() + labs(x="Player", y="Statistic")
+mem_starts_map
+
+
 
 ```
 
 
+```{r}
+player_split_data <- read.csv("/Users/elijahflomen/Desktop/nba-chokes-testing/data/player_scoring_data.csv")
+colors <- c("Points Before" = "#0fa3ff", "Points After" = "#56545c")
 
+all_players_split <- 
+  ggplot(player_split_data) + 
+  geom_density(aes(points_bf, color='Points Before')) + 
+  geom_density(aes(points_af, color='Points After')) + 
+  labs(x="Points Scored", y="Density", color="Legend") + 
+  scale_color_manual(values = colors)
+all_players_split
+
+```
 
 
