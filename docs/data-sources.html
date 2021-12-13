@@ -76,7 +76,10 @@
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>2</b> Data sources</a></li>
 <li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data transformation</a></li>
-<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values</a></li>
+<li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="missing-values.html"><a href="missing-values.html#play-by-play-missing-data"><i class="fa fa-check"></i><b>4.1</b> Play-by-play missing data:</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results</a>
 <ul>
 <li class="chapter" data-level="5.1" data-path="results.html"><a href="results.html#total-chokes-and-comebacks"><i class="fa fa-check"></i><b>5.1</b> Total Chokes and Comebacks</a></li>
@@ -111,10 +114,9 @@
 <div id="data-sources" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Data sources</h1>
 <ol style="list-style-type: decimal">
-<li><p>Githhub: ‘swar/nba_api’
+<li><p>Githhub: <a href="https://github.com/swar/nba_api">‘swar/nba_api’</a>
 Our central data source for this project came from a Python wrapper for the NBA’s public API. The link to this wrapper and its documentation can be found here. This API is written for Python and as a result a large portion of our data clearing and exporting came from Python scripts and notebooks (which will be discussed in more detail later). This API grants access to a wide variety of baseketball-focused data, however, our project decided to narrow in on a few of its queries. Most importantly, we pulled the play-by-play data which provides a plethora of data at the moment-by-moment level of NBA games. Each row in this dataset corresponds to an event in the game, which falls into 1 of 3 categories. An event can be neutral, such as the beginning and ending of a quarter, or events can favor either of the teams, such as a point scored, a foul committed, turnover etc. In addition to a string description of each event, each row in this dataset also contains each team’s win probability at that moment in time which is already calculated by the NBA. Although we do not have the exact formula for how this crucial statistic is calculated, it is intuitively some function of point differential and time remaining in the game. This statistic is obviously critical for our analysis, since we are specifically looking at the games where a team had &gt;90% win probability at some point in time and then lost the game. We used this data set to initially pull every single game from the last 4 NBA seasons and identify the games where a ‘choke’ occurred. We also used this dataset to pull specific player-related data, in particular, how their performance changed over the course of a game that was classified as a ‘choke’.</p></li>
-<li><p>R Package: nbastatR
-<a href="https://www.rdocumentation.org/packages/nbastatR/versions/0.1.10131" class="uri">https://www.rdocumentation.org/packages/nbastatR/versions/0.1.10131</a>
+<li><p>R Package: <a href="https://www.rdocumentation.org/packages/nbastatR/versions/0.1.10131">nbastatR</a>
 In addition to the Python API to pull play-by-play and time-sensitive player data, we also leveraged the R package nbastatR. We used this dataset to get aggregate seasonal data for specific players. We decided to use this dataset since it allowed us to pull the data directly into R without needing external Python scripts.</p></li>
 </ol>
 
