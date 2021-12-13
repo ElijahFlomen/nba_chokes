@@ -229,7 +229,7 @@ From the Memphis Grizzlies heatmap, we can clearly see that Ja Morant, their sta
 
 ```{r}
 okc_player_stats <- 
-  players_careers(players=c("Russell Westbrook", "Kenrich Williams", "Dennis Schroder", "Paul George", "Shai Gilgeous-Alexander"),
+  players_careers(players=c("Russell Westbrook", "Steven Adams", "Dennis Schroder", "Paul George", "Shai Gilgeous-Alexander"),
                   modes=c("Totals"), 
                   assign_to_environment = FALSE,
                   add_mode_names = FALSE, return_message = FALSE) %>% filter(nameTable=="SeasonRankingsRegularSeason")
@@ -241,12 +241,12 @@ westbrook_longer <- westbrook_stats %>% pivot_longer(!player, names_to = 'stat',
 westbrook_longer <- westbrook_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
 westbrook_longer$player <- "Russell Westbrook"
 
-williams_stats <- okc_player_stats %>% filter(namePlayer=="Kenrich Williams") %>% select(dataTable)
-williams_stats <- williams_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
-williams_stats$player <- "Kenrich Williams"
-williams_longer <- williams_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
-williams_longer <- williams_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
-williams_longer$player <- "Kenrich Williams"
+adams_stats <- okc_player_stats %>% filter(namePlayer=="Steven Adams") %>% select(dataTable)
+adams_stats <- adams_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+adams_stats$player <- "Steven Adams"
+adams_longer <- adams_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+adams_longer <- adams_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+adams_longer$player <- "Steven Adams"
 
 schroder_stats <- okc_player_stats %>% filter(namePlayer=="Dennis Schroder") %>% select(dataTable)
 schroder_stats <- schroder_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
@@ -256,20 +256,20 @@ schroder_longer <- schroder_longer %>% group_by(stat) %>% summarize(mean(value, 
 schroder_longer$player <- "Dennis Schroder"
 
 george_stats <- okc_player_stats %>% filter(namePlayer=="Paul George") %>% select(dataTable)
-george_stats <- dort_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+george_stats <- george_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
 george_stats$player <- "Paul George"
-george_longer <- dort_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
-george_longer <- dort_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+george_longer <- george_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+george_longer <- george_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
 george_longer$player <- "Paul George"
 
 shai_stats <- okc_player_stats %>% filter(namePlayer=="Shai Gilgeous-Alexander") %>% select(dataTable)
-shai_stats <- horford_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
+shai_stats <- shai_stats[[1]][[1]] %>% select(fg3mRank, fgmRank, pctFGRank, ptsRank, tovRank, trebRank)
 shai_stats$player <- "Shai Gilgeous-Alexander"
-shai_longer <- horford_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
-shai_longer <- horford_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
+shai_longer <- shai_stats %>% pivot_longer(!player, names_to = 'stat', values_to = 'value') 
+shai_longer <- shai_longer %>% group_by(stat) %>% summarize(mean(value, na.rm=TRUE))
 shai_longer$player <- "Shai Gilgeous-Alexander"
 
-okc_total_heat <- rbind(westbrook_longer, adams_longer, schroder_longer, dort_longer, horford_longer) 
+okc_total_heat <- rbind(westbrook_longer, adams_longer, schroder_longer, shai_longer, george_longer) 
 colnames(okc_total_heat)[2] <- "rank"
 
 okc_starts_map<-ggplot(data=okc_total_heat, aes(player, stat, fill=rank)) + geom_tile() + 
@@ -319,9 +319,11 @@ mem_players_split_plot <-
   scale_color_manual(values = colors) +
   facet_wrap(~player)
 mem_players_split_plot
+```
 
+```{r}
 okc_split_data <- merge(player_split_data, choke_list_frame, by="game_id") %>% filter(home_team == "OKC" & home_choke == 0 | away_team == "OKC" & home_choke == 1)
-okc_split_data <- okc_split_data %>% filter(str_detect(player, 'Westbrook|Schroder|Gilgeous-Alexander|George|Williams')) 
+okc_split_data <- okc_split_data %>% filter(str_detect(player, 'Westbrook|Schroder|Gilgeous-Alexander|George|Adams')) 
 
 okc_players_split_plot <- 
   ggplot(okc_split_data) + 
@@ -332,4 +334,5 @@ okc_players_split_plot <-
   facet_wrap(~player)
 okc_players_split_plot
 ```
+
 
