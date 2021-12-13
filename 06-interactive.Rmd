@@ -13,9 +13,18 @@ Reading the chart - The data is split up on each side of the mosaic first by tea
  - <div style="width:100px;height:20px;background-color:maroon"></div>Visiting Team. **Top 3 Scorers**
  - <div style="width:100px;height:20px;background-color:firebrick"></div>Visiting Team. **All Other Scorers**
 
-The height of the plot is represented by the % of points scored by each category before and after the inflection (or choke) point.Therefore, the addition of all scorers then will ad up to 1.0 for before choke and after choke, respectively.
+The height of the plot is represented by the % of points scored by each category before and after the inflection (or choke) point.Therefor, the addition of all scorers then will ad up to 1.0 for before choke and after choke, respectively.
 
 This kind of data gives an insight into why a team may have choked/ made a comeback. For example, the game that automatically comes up is MIA @ BOS. Before the inflection point, Boston's Top 3 players scored much more than they did after the inflection, and in a similar manner, Miami's bottom players before the choke ended up playing a significant role in the second part of the game.
+
+<br></br>
+``` {css, echo=FALSE}
+svg {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+```
 
 <html lang="en">
 
