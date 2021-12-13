@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 6 Interactive component | NBA Chokes</title>
-  <meta name="description" content="Chapter 6 Interactive component | NBA Chokes" />
+  <title>Chapter 7 Interactive Portion | NBA Chokes</title>
+  <meta name="description" content="Chapter 7 Interactive Portion | NBA Chokes" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 6 Interactive component | NBA Chokes" />
+  <meta property="og:title" content="Chapter 7 Interactive Portion | NBA Chokes" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 Interactive component | NBA Chokes" />
+  <meta name="twitter:title" content="Chapter 7 Interactive Portion | NBA Chokes" />
   
   
   
@@ -31,7 +31,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="results.html"/>
+<link rel="prev" href="interactive-component.html"/>
 <link rel="next" href="conclusion.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -91,7 +91,8 @@
 <li class="chapter" data-level="5.7" data-path="results.html"><a href="results.html#mem-and-okc-game-split-player-data"><i class="fa fa-check"></i><b>5.7</b> MEM and OKC Game Split Player Data</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>6</b> Interactive component</a></li>
-<li class="chapter" data-level="7" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>7</b> Conclusion</a></li>
+<li class="chapter" data-level="7" data-path="interactive-portion.html"><a href="interactive-portion.html"><i class="fa fa-check"></i><b>7</b> Interactive Portion</a></li>
+<li class="chapter" data-level="8" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>8</b> Conclusion</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -111,29 +112,17 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="interactive-component" class="section level1" number="6">
-<h1><span class="header-section-number">Chapter 6</span> Interactive component</h1>
+<div id="interactive-portion" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Interactive Portion</h1>
 <p>Description:</p>
 <p>The data below is from NBA Playoff Games from 2017-2018 where one team has “choked” as we have described extensively throughout our project.</p>
 <p>The data is interactively selected to each playoff game requested, and the following mosaic-like bar chart comes on screen:</p>
 <p>Reading the chart - The data is split up on each side of the mosaic first by team, followed by shade as follows:</p>
 <ul>
-<li><div style="width:100px;height:20px;background-color:royalblue">
-
-</div>
-Home Team. <strong>Top 3 Scorers</strong></li>
-<li><div style="width:100px;height:20px;background-color:lightskyblue">
-
-</div>
-Home Team. <strong>All Other Scorers</strong></li>
-<li><div style="width:100px;height:20px;background-color:maroon">
-
-</div>
-Visiting Team. <strong>Top 3 Scorers</strong></li>
-<li><div style="width:100px;height:20px;background-color:firebrick">
-
-</div>
-Visiting Team. <strong>All Other Scorers</strong></li>
+<li>Blue: Home Team. Top 3 Scorers</li>
+<li>Light Blue: Home Team. All Other Scorers</li>
+<li>Maroon: Visiting Team. Top 3 Scorers</li>
+<li>Red: Visiting Team. All Other Scorers</li>
 </ul>
 <p>The height of the plot is represented by the % of points scored by each category before and after the inflection (or choke) point.Therefor, the addition of all scorers then will ad up to 1.0 for before choke and after choke, respectively.</p>
 <p>This kind of data gives an insight into why a team may have choked/ made a comeback. For example, the game that automatically comes up is MIA @ BOS. Before the inflection point, Boston’s Top 3 players scored much more than they did after the inflection, and in a similar manner, Miami’s bottom players before the choke ended up playing a significant role in the second part of the game.</p>
@@ -743,12 +732,12 @@ Visiting Team. <strong>All Other Scorers</strong></li>
   // create consatnt selection of bar chart colors
   var colors = d3.scaleOrdinal(['royalblue', 'lightskyblue', 'maroon', 'firebrick']);
 
-  // create SVG 
+  // create SVG element
   var svg = d3.select("body")
     .append("svg")
     .attr("width", w)
     .attr("height", h)
-    .attr("margin", "0 auto");
+    .attr("fill", "ivory")
 
   // add a group for each row of data
   var groups = svg.selectAll("g")
@@ -783,6 +772,7 @@ Visiting Team. <strong>All Other Scorers</strong></li>
  // need to add an update function here on select change
   function update(selectedGame) {
       var datasetGame = dataset[selectedGame];
+      console.log(datasetGame);
      
       var stack = d3.stack()
        .keys([ "home_top3_pct", "home_bottom_pct", "away_top3_pct", "away_bottom_pct" ]);
@@ -804,6 +794,7 @@ Visiting Team. <strong>All Other Scorers</strong></li>
         .attr("id", "category")
         .style("fill", (d, i) => colors(i));
 
+      console.log(groups.enter())
     
       var rects = groups.selectAll("rect")
         .data(d => d)
@@ -819,6 +810,9 @@ Visiting Team. <strong>All Other Scorers</strong></li>
         .attr("y", d => yScale(d[1]))
         .attr("height", d => (yScale(d[0]) - yScale(d[1])))
         .attr("width", (d, i) => xScale.bandwidth());
+       
+      console.log(rects.enter())
+
   
     }
     //  d => (yScale(d[2]) - yScale(d[3]))
@@ -837,7 +831,7 @@ Visiting Team. <strong>All Other Scorers</strong></li>
           </div>
         </div>
       </div>
-<a href="results.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="interactive-component.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="conclusion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
